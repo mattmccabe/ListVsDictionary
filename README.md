@@ -8,6 +8,8 @@ Results
 
 Gains are pretty small in these tests.
 
+[View Results Raw](https://raw.githubusercontent.com/mattmccabe/ListVsDictionary/master/README.md)
+
 1 Items with 1 lookups
 	List==>	Create:	00:00:00.0002113	Do lookup:	00:00:00.0000012
 	Dict==>	Create:	00:00:00.0060925	Do lookup:	00:00:00.0001216
