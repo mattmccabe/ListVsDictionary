@@ -8,152 +8,102 @@ Results
 
 Gains are pretty small in these tests.
 
-Testing 1 Items with 1 lookups
-   List running:
-	Creation:00:00:00.0002700	Lookup: 00:00:00.0000012
-   Dictionary running:
-	Creation:00:00:00.0062114	Lookup: 00:00:00.0001240
+1 Items with 1 lookups
+	List==>	Create:	00:00:00.0002113	Do lookup:	00:00:00.0000012
+	Dict==>	Create:	00:00:00.0060925	Do lookup:	00:00:00.0001216
 
-Testing 10 Items with 1 lookups
-   List running:
-	Creation:00:00:00.0000023	Lookup: 00:00:00.0000004
-   Dictionary running:
-	Creation:00:00:00.0000048	Lookup: 00:00:00.0000003
+10 Items with 1 lookups
+	List==>	Create:	00:00:00.0000021	Do lookup:	00:00:00.0000005
+	Dict==>	Create:	00:00:00.0000048	Do lookup:	00:00:00.0000002
 
-Testing 100 Items with 1 lookups
-   List running:
-	Creation:00:00:00.0000056	Lookup: 00:00:00.0000044
-   Dictionary running:
-	Creation:00:00:00.0000060	Lookup: 00:00:00.0000013
+100 Items with 1 lookups
+	List==>	Create:	00:00:00.0000059	Do lookup:	00:00:00.0000046
+	Dict==>	Create:	00:00:00.0000060	Do lookup:	00:00:00.0000013
 
-Testing 1000 Items with 1 lookups
-   List running:
-	Creation:00:00:00.0000238	Lookup: 00:00:00.0001690
-   Dictionary running:
-	Creation:00:00:00.0008438	Lookup: 00:00:00.0000139
+1000 Items with 1 lookups
+	List==>	Create:	00:00:00.0000229	Do lookup:	00:00:00.0001919
+	Dict==>	Create:	00:00:00.0010055	Do lookup:	00:00:00.0000251
 
-Testing 10000 Items with 1 lookups
-   List running:
-	Creation:00:00:00.0000469	Lookup: 00:00:00.0033933
-   Dictionary running:
-	Creation:00:00:00.0000609	Lookup: 00:00:00.0002635
+10000 Items with 1 lookups
+	List==>	Create:	00:00:00.0000460	Do lookup:	00:00:00.0035474
+	Dict==>	Create:	00:00:00.0000544	Do lookup:	00:00:00.0001783
 
-Testing 1 Items with 5 lookups
-   List running:
-	Creation:00:00:00.0000009	Lookup: 00:00:00.0000001
-   Dictionary running:
-	Creation:00:00:00.0000012	Lookup: 00:00:00.0000001
+1 Items with 5 lookups
+	List==>	Create:	00:00:00.0000009	Do lookup:	00:00:00.0000001
+	Dict==>	Create:	00:00:00.0000011	Do lookup:	00:00:00.0000002
 
-Testing 10 Items with 5 lookups
-   List running:
-	Creation:00:00:00.0000044	Lookup: 00:00:00.0000005
-   Dictionary running:
-	Creation:00:00:00.0000045	Lookup: 00:00:00.0002804
+10 Items with 5 lookups
+	List==>	Create:	00:00:00.0000020	Do lookup:	00:00:00.0000005
+	Dict==>	Create:	00:00:00.0000043	Do lookup:	00:00:00.0003013
 
-Testing 100 Items with 5 lookups
-   List running:
-	Creation:00:00:00.0000059	Lookup: 00:00:00.0000060
-   Dictionary running:
-	Creation:00:00:00.0000060	Lookup: 00:00:00.0000048
+100 Items with 5 lookups
+	List==>	Create:	00:00:00.0000053	Do lookup:	00:00:00.0000059
+	Dict==>	Create:	00:00:00.0000057	Do lookup:	00:00:00.0000047
 
-Testing 1000 Items with 5 lookups
-   List running:
-	Creation:00:00:00.0000167	Lookup: 00:00:00.0001832
-   Dictionary running:
-	Creation:00:00:00.0000204	Lookup: 00:00:00.0000467
+1000 Items with 5 lookups
+	List==>	Create:	00:00:00.0000170	Do lookup:	00:00:00.0002786
+	Dict==>	Create:	00:00:00.0000215	Do lookup:	00:00:00.0000623
 
-Testing 10000 Items with 5 lookups
-   List running:
-	Creation:00:00:00.0000331	Lookup: 00:00:00.0034867
-   Dictionary running:
-	Creation:00:00:00.0000416	Lookup: 00:00:00.0005260
+10000 Items with 5 lookups
+	List==>	Create:	00:00:00.0000324	Do lookup:	00:00:00.0035575
+	Dict==>	Create:	00:00:00.0000469	Do lookup:	00:00:00.0006270
 
-Testing 1 Items with 10 lookups
-   List running:
-	Creation:00:00:00.0000010	Lookup: 00:00:00.0000001
-   Dictionary running:
-	Creation:00:00:00.0000008	Lookup: 00:00:00.0000001
+1 Items with 10 lookups
+	List==>	Create:	00:00:00.0000011	Do lookup:	00:00:00.0000002
+	Dict==>	Create:	00:00:00.0000013	Do lookup:	00:00:00.0000001
 
-Testing 10 Items with 10 lookups
-   List running:
-	Creation:00:00:00.0000022	Lookup: 00:00:00.0000003
-   Dictionary running:
-	Creation:00:00:00.0000023	Lookup: 00:00:00.0000004
+10 Items with 10 lookups
+	List==>	Create:	00:00:00.0000019	Do lookup:	00:00:00.0000005
+	Dict==>	Create:	00:00:00.0000024	Do lookup:	00:00:00.0000005
 
-Testing 100 Items with 10 lookups
-   List running:
-	Creation:00:00:00.0000036	Lookup: 00:00:00.0000060
-   Dictionary running:
-	Creation:00:00:00.0000037	Lookup: 00:00:00.0000048
+100 Items with 10 lookups
+	List==>	Create:	00:00:00.0000038	Do lookup:	00:00:00.0000063
+	Dict==>	Create:	00:00:00.0000038	Do lookup:	00:00:00.0000049
 
-Testing 1000 Items with 10 lookups
-   List running:
-	Creation:00:00:00.0000164	Lookup: 00:00:00.0001801
-   Dictionary running:
-	Creation:00:00:00.0000184	Lookup: 00:00:00.0000488
+1000 Items with 10 lookups
+	List==>	Create:	00:00:00.0000176	Do lookup:	00:00:00.0001812
+	Dict==>	Create:	00:00:00.0000199	Do lookup:	00:00:00.0000480
 
-Testing 10000 Items with 10 lookups
-   List running:
-	Creation:00:00:00.0000407	Lookup: 00:00:00.0035439
-   Dictionary running:
-	Creation:00:00:00.0000438	Lookup: 00:00:00.0006060
+10000 Items with 10 lookups
+	List==>	Create:	00:00:00.0000371	Do lookup:	00:00:00.0034369
+	Dict==>	Create:	00:00:00.0000443	Do lookup:	00:00:00.0005910
 
-Testing 1 Items with 50 lookups
-   List running:
-	Creation:00:00:00.0000011	Lookup: 00:00:00.0000001
-   Dictionary running:
-	Creation:00:00:00.0000011	Lookup: 00:00:00.0000001
+1 Items with 50 lookups
+	List==>	Create:	00:00:00.0000011	Do lookup:	00:00:00.0000001
+	Dict==>	Create:	00:00:00.0000012	Do lookup:	00:00:00.0000001
 
-Testing 10 Items with 50 lookups
-   List running:
-	Creation:00:00:00.0000023	Lookup: 00:00:00.0000004
-   Dictionary running:
-	Creation:00:00:00.0000026	Lookup: 00:00:00.0000006
+10 Items with 50 lookups
+	List==>	Create:	00:00:00.0000018	Do lookup:	00:00:00.0000003
+	Dict==>	Create:	00:00:00.0000024	Do lookup:	00:00:00.0000004
 
-Testing 100 Items with 50 lookups
-   List running:
-	Creation:00:00:00.0000055	Lookup: 00:00:00.0000063
-   Dictionary running:
-	Creation:00:00:00.0000060	Lookup: 00:00:00.0000040
+100 Items with 50 lookups
+	List==>	Create:	00:00:00.0000038	Do lookup:	00:00:00.0000045
+	Dict==>	Create:	00:00:00.0000038	Do lookup:	00:00:00.0000031
 
-Testing 1000 Items with 50 lookups
-   List running:
-	Creation:00:00:00.0000168	Lookup: 00:00:00.0001873
-   Dictionary running:
-	Creation:00:00:00.0000202	Lookup: 00:00:00.0000500
+1000 Items with 50 lookups
+	List==>	Create:	00:00:00.0000170	Do lookup:	00:00:00.0001828
+	Dict==>	Create:	00:00:00.0000196	Do lookup:	00:00:00.0000498
 
-Testing 10000 Items with 50 lookups
-   List running:
-	Creation:00:00:00.0000340	Lookup: 00:00:00.0054541
-   Dictionary running:
-	Creation:00:00:00.0000735	Lookup: 00:00:00.0008618
+10000 Items with 50 lookups
+	List==>	Create:	00:00:00.0000356	Do lookup:	00:00:00.0034761
+	Dict==>	Create:	00:00:00.0000407	Do lookup:	00:00:00.0005887
 
-Testing 1 Items with 100 lookups
-   List running:
-	Creation:00:00:00.0000015	Lookup: 00:00:00.0000001
-   Dictionary running:
-	Creation:00:00:00.0000013	Lookup: 00:00:00.0000001
+1 Items with 100 lookups
+	List==>	Create:	00:00:00.0000008	Do lookup:	00:00:00.0000001
+	Dict==>	Create:	00:00:00.0000012	Do lookup:	00:00:00.0000001
 
-Testing 10 Items with 100 lookups
-   List running:
-	Creation:00:00:00.0000036	Lookup: 00:00:00.0000005
-   Dictionary running:
-	Creation:00:00:00.0000042	Lookup: 00:00:00.0000005
+10 Items with 100 lookups
+	List==>	Create:	00:00:00.0000019	Do lookup:	00:00:00.0000004
+	Dict==>	Create:	00:00:00.0000024	Do lookup:	00:00:00.0000004
 
-Testing 100 Items with 100 lookups
-   List running:
-	Creation:00:00:00.0000064	Lookup: 00:00:00.0000067
-   Dictionary running:
-	Creation:00:00:00.0000061	Lookup: 00:00:00.0000035
+100 Items with 100 lookups
+	List==>	Create:	00:00:00.0000037	Do lookup:	00:00:00.0000049
+	Dict==>	Create:	00:00:00.0000039	Do lookup:	00:00:00.0000026
 
-Testing 1000 Items with 100 lookups
-   List running:
-	Creation:00:00:00.0000278	Lookup: 00:00:00.0002853
-   Dictionary running:
-	Creation:00:00:00.0000314	Lookup: 00:00:00.0000573
+1000 Items with 100 lookups
+	List==>	Create:	00:00:00.0000170	Do lookup:	00:00:00.0001744
+	Dict==>	Create:	00:00:00.0000194	Do lookup:	00:00:00.0000398
 
-Testing 10000 Items with 100 lookups
-   List running:
-	Creation:00:00:00.0000331	Lookup: 00:00:00.0033754
-   Dictionary running:
-	Creation:00:00:00.0000403	Lookup: 00:00:00.0005232
+10000 Items with 100 lookups
+	List==>	Create:	00:00:00.0000338	Do lookup:	00:00:00.0033959
+	Dict==>	Create:	00:00:00.0000416	Do lookup:	00:00:00.0005561
