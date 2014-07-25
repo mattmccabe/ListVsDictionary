@@ -17,13 +17,13 @@ namespace ListVsDictionary
 					var itemCount = itemCounts [j];
 					List<Item> items = GetItemsWithLookups(itemCount, lookupCount);
 
-					WriteLine(string.Format("Testing {0} Items with {1} lookups", itemCount, lookupCount));
+					Console.WriteLine("{0} Items with {1} lookups", itemCount, lookupCount);
 
 					ListTest (items, lookupCounts [j]);
-					WriteLine ("");
+					Console.WriteLine ("");
 					DictionaryTest (items, lookupCounts [j]);
-					WriteLine ("");
-					WriteLine ("");
+					Console.WriteLine ("");
+					Console.WriteLine ("");
 				}
 			}
 		}
@@ -39,14 +39,10 @@ namespace ListVsDictionary
 			}
 			return items;
 		}
-		public static void WriteLine(string output)
-		{
-			Console.WriteLine(output);
-		}
 
 		public static void DictionaryTest(List<Item> items, int lookupCount)
 		{
-			Console.WriteLine ("   Dictionary running:");
+			Console.Write ("\tDict==>");
 			Stopwatch sw = new Stopwatch ();
 			sw.Start ();
 
@@ -56,7 +52,7 @@ namespace ListVsDictionary
 				lookupCount--;
 			}
 			sw.Stop ();
-			Console.Write ("\tCreation:{0}", sw.Elapsed);
+			Console.Write ("\tCreate:\t{0}", sw.Elapsed);
 
 			sw.Reset();
 			sw.Start ();
@@ -69,14 +65,14 @@ namespace ListVsDictionary
 				}
 			}
 			sw.Stop ();
-			Console.Write ("\tLookup: {0}", sw.Elapsed);
+			Console.Write ("\tDo lookup:\t{0}", sw.Elapsed);
 
 		}
 
 
 		public static void ListTest(List<Item> items, int lookupCount)
 		{
-			Console.WriteLine ("   List running:");
+			Console.Write ("\tList==>");
 
 			Stopwatch sw = new Stopwatch ();
 			sw.Start ();
@@ -87,7 +83,7 @@ namespace ListVsDictionary
 				lookupCount--;
 			}
 			sw.Stop ();
-			Console.Write ("\tCreation:{0}", sw.Elapsed);
+			Console.Write ("\tCreate:\t{0}", sw.Elapsed);
 
 			sw.Reset();
 			sw.Start ();
@@ -102,7 +98,7 @@ namespace ListVsDictionary
 				}
 			}
 			sw.Stop ();
-			Console.Write ("\tLookup: {0}", sw.Elapsed);
+			Console.Write ("\tDo lookup:\t{0}", sw.Elapsed);
 
 		}
 	}
